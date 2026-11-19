@@ -1,0 +1,78 @@
+{
+  "default": {
+    "receipts": 48,
+    "fields": {
+      "company": {
+        "labeled": 48,
+        "correct": 16,
+        "accepted": 37,
+        "accepted_correct": 16,
+        "exact_match": 0.3333333333333333,
+        "coverage": 0.7708333333333334,
+        "accepted_precision": 0.43243243243243246
+      },
+      "date": {
+        "labeled": 41,
+        "correct": 29,
+        "accepted": 14,
+        "accepted_correct": 12,
+        "exact_match": 0.7073170731707317,
+        "coverage": 0.34146341463414637,
+        "accepted_precision": 0.8571428571428571
+      },
+      "total": {
+        "labeled": 48,
+        "correct": 25,
+        "accepted": 10,
+        "accepted_correct": 10,
+        "exact_match": 0.5208333333333334,
+        "coverage": 0.20833333333333334,
+        "accepted_precision": 1.0
+      }
+    },
+    "receipts_with_questions": 45,
+    "arithmetic_status_counts": {
+      "matches": 0,
+      "mismatch": 0,
+      "unavailable": 48
+    }
+  },
+  "fitted": {
+    "receipts": 48,
+    "fields": {
+      "company": {
+        "labeled": 48,
+        "correct": 16,
+        "accepted": 0,
+        "accepted_correct": 0,
+        "exact_match": 0.3333333333333333,
+        "coverage": 0.0,
+        "accepted_precision": null
+      },
+      "date": {
+        "labeled": 41,
+        "correct": 29,
+        "accepted": 24,
+        "accepted_correct": 20,
+        "exact_match": 0.7073170731707317,
+        "coverage": 0.5853658536585366,
+        "accepted_precision": 0.8333333333333334
+      },
+      "total": {
+        "labeled": 48,
+        "correct": 25,
+        "accepted": 11,
+        "accepted_correct": 11,
+        "exact_match": 0.5208333333333334,
+        "coverage": 0.22916666666666666,
+        "accepted_precision": 1.0
+      }
+    },
+    "receipts_with_questions": 48,
+    "arithmetic_status_counts": {
+      "matches": 0,
+      "mismatch": 0,
+      "unavailable": 48
+    }
+  }
+}
